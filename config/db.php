@@ -110,5 +110,64 @@ return [
             "sale_date" => "2019-04-10",
             "type" => "graphic novel",
         ]
+    ],
+
+    'headLinks' =>[
+        'characters',
+        'comics',
+        'movies',
+        'tv',
+        'games',
+        'collections',
+        'videos',
+        'fans',
+        'news',
+        'shop',
+    ],
+
+    'footLinks' =>[
+        'DC Comics' =>[
+            'Characters',
+            'Comics',
+            'Movies',
+            'Tv',
+            'Games',
+            'Videos',
+            'News',
+        ],
+        'Shop' =>[
+            'Shop DC',
+            'Shop DC Collectibles'
+        ],
+        'DC' =>[
+            'Terms of Use',
+            'Privacy Policy(New)',
+            'Ad Choices',
+            'Advertising',
+            'Jobs',
+            'Subscriptions',
+            'Talent Workshops',
+            'CPSC Certificates',
+            'Ratings',
+            'Shop Help',
+            'Contact Us',
+        ],
+        'Sites' =>[
+            'DC',
+            'MAD Magazine',
+            'DC Kids',
+            'DC Universe',
+            'DC Power Visa',
+        ]
+    ],
+
+    'socials' =>[
+        'footer-facebook.png',
+        'footer-twitter.png',
+        'footer-youtube.png',
+        'footer-pinterest.png',
+        'footer-periscope.png',
     ]
+    
+
 ];
