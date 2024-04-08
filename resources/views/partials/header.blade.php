@@ -16,7 +16,7 @@
         <form class="d-flex" role="search">
             <div class="input-group searchbar p-2">
                 <input class="form-control border-0 p-0" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn border-0 p-0 fw-bold" type="submit">Search</button>
+                <button class="btn border-0 p-0 fw-bold" type="submit"><i class="fa-solid fa-magnifying-glass fs-4"></i></button>
             </div>
         </form>
     </div>

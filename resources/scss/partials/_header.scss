@@ -9,12 +9,15 @@ nav{
 
     .searchbar{
         border-bottom: 2px solid $primary;
+
+        input::-webkit-input-placeholder{
+            text-align: end;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
     }
 
-    input::-webkit-input-placeholder{
-        text-align: end;
-        font-weight: bold;
-    }
 
 
 }
