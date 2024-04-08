@@ -1,0 +1,26 @@
+.ft-top{
+
+    height: 400px;
+
+    background-image: url('/resources/img/footer-bg.jpg');
+    background-size: cover;
+
+    overflow: hidden;
+
+    color: white;
+
+    img{
+        position: relative;
+        bottom: 75px;
+    }
+
+
+}
+
+.ft-bottom{
+    height: 100px;
+    // test
+    
+    background-color: #303030;
+    color: white;
+}
