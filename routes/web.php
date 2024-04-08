@@ -14,8 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
-    
     $comics = config("db.comics");
     $headLinks = config("db.headLinks");
 
@@ -27,7 +25,7 @@ Route::get('/', function () {
 
     // compact('blueLinks') removed because of error
     return view('welcome', compact('comics'), compact('headLinks'),);
-});
+})->name('gallery');
 
 Route::get('/comic', function (){
 

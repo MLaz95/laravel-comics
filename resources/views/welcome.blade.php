@@ -12,14 +12,14 @@
             <div class="row row-cols-6 row-gap-3">
                 @foreach ($comics as $singleComic)
                 <div class="col">
-                    <div class="card h-100 border-0 rounded-0 bg-transparent text-white">
+                    <a href="{{route('comic')}}" class="card h-100 border-0 rounded-0 bg-transparent text-white">
                         <div class="ratio ratio-1x1">
                             <img src="{{$singleComic['thumb']}}" class="object-fit-cover cover" alt="{{$singleComic['title']}}">
                         </div>
                         <div class="py-4">
                             <h5 class="text-uppercase p-0">{{$singleComic['title']}}</h5>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 @endforeach
             </div>

@@ -4,7 +4,10 @@
 
 <div class="comic-head">
     <div class="my_container">
-        <img class="single-cover" src="{{$comics[0]['thumb']}}" alt="{{$comics[0]['title']}}">
+        <a href="{{route('gallery')}}" class="single-cover border d-block">
+            <img class="img-fluid" src="{{$comics[0]['thumb']}}" alt="{{$comics[0]['title']}}">
+            <div class="text-center back-link text-white">VIEW GALLERY</div>
+        </a>
     </div>
 </div>
 
