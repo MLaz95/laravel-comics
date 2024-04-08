@@ -27,5 +27,15 @@
             </div>
             <button class="border-0 text-white text-uppercase fw-bold py-2 px-5">Load More</button>
         </div>
+
+        <div>
+            <div class="container">
+                <ul class="d-flex justify-content-around">
+                    {{-- @foreach ($blueLinks as $bLink)
+                    <li>test</li>
+                    @endforeach --}}
+                </ul>
+            </div>
+        </div>
     </main>
 @endsection

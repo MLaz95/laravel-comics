@@ -15,9 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $headLinks = config("db.headLinks");
+    
     $comics = config("db.comics");
-    // dd($comics);
+    $headLinks = config("db.headLinks");
 
-    return view('welcome', compact('comics'), compact('headLinks'));
+    // this variable is not working for some reason
+    // the dd shows the array correctly
+    // but when the variable is called on the welcome page it reads a unidentified
+    // $blueLinks = config("db.blueLinks");
+    // dd($blueLinks);
+
+    // compact('blueLinks') removed because of error
+    return view('welcome', compact('comics'), compact('headLinks'),);
 });
