@@ -1,6 +1,7 @@
 <div id="top-bar">
     <ul class="container d-flex justify-content-end gap-3 text-white">
-        <li>test</li>
+        <li>DC POWER VISA<sup>5M</sup> &#174;</li>
+        <li>ADDITIONAL DC SITES</li>
     </ul>
 </div>
 <nav class="navbar bg-white py-3">
