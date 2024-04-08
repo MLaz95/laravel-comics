@@ -1,0 +1,19 @@
+.my_container{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.comic-head{
+    height: 80px;
+    background-color: $primary;
+}
+
+.single-cover{
+    width: 195px;
+    position: relative;
+    top: -225px;
+}
+
+.highlight{
+    background-color: $highlight;
+}

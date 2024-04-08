@@ -22,3 +22,5 @@
         </form>
     </div>
 </nav>
+
+<img id="jumbotron" src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">

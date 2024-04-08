@@ -28,3 +28,11 @@ Route::get('/', function () {
     // compact('blueLinks') removed because of error
     return view('welcome', compact('comics'), compact('headLinks'),);
 });
+
+Route::get('/comic', function (){
+
+    $comics = config("db.comics");
+    $headLinks = config("db.headLinks");
+
+    return view('comic', compact('headLinks'), compact('comics'));
+})->name('comic');

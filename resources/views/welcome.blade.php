@@ -3,8 +3,6 @@
 @section('content')
     <main class="pb-3">
 
-        <img id="jumbotron" src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
-
         <div class="container d-flex flex-column align-items-center">
             <div class="text-white text-uppercase my_page_tag px-3 py-2 align-self-start">
                 <h2 class="m-0">
