@@ -2,6 +2,19 @@
     background-color: $primary;
 }
 
-.nav-logo{
-    width: 80px;
+nav{
+    .nav-logo{
+        width: 80px;
+    }
+
+    .searchbar{
+        border-bottom: 2px solid $primary;
+    }
+
+    input::-webkit-input-placeholder{
+        text-align: end;
+        font-weight: bold;
+    }
+
+
 }

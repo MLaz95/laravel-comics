@@ -1,15 +1,23 @@
 <div id="top-bar">
     <ul class="container d-flex justify-content-end gap-3 text-white">
         <li>test</li>
-        <li>test</li>
     </ul>
 </div>
-<nav class="navbar bg-white">
+<nav class="navbar bg-white py-3">
     <div class="container">
         <img class="nav-logo" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+        
+        <ul class="d-flex gap-4 text-uppercase fw-bold">
+            @foreach ($headLinks as $link)
+            <li>{{$link}}</li>
+            @endforeach
+        </ul>
+
         <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <div class="input-group searchbar p-2">
+                <input class="form-control border-0 p-0" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn border-0 p-0 fw-bold" type="submit">Search</button>
+            </div>
         </form>
     </div>
 </nav>
