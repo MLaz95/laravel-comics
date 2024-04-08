@@ -10,6 +10,27 @@ ul {
 }
 
 
-.cover{
-    object-position: top;
+main{
+    background-color: $secondary;
+
+    #jumbotron{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .my_page_tag{
+        background-color: $primary;
+        transform: translateY(-50%);
+    }
+
+    .cover{
+        object-position: top;
+    }
+
+    button{
+        background-color: $primary;
+    }
+
 }
