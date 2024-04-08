@@ -1,1 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
+
+@import './partials/variables';
+@import './partials/header';
+
+// general style rules
+ul {
+    list-style: none;
+}
